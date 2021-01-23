@@ -37,21 +37,23 @@ chat事件 增加mac属性
 
 DailySchedule
 
-| Date | Content                                        | FlagStatue          |
-| ---- | ---------------------------------------------- | ------------------- |
-| Mon  | context、sync.map基础练习使用                  | 未完成，context未看 |
-| Tues | gopl 8.9聊天服务器代码实现                     | 完成，遗留问题2     |
-| Wed  | gopl 9.1 竞态 9.2互斥  9.3读写互斥             | 完成                |
-| Thur | gopl 9.4 内存同步 9.5 延迟初始化               | 完成                |
-| Fri  | gopl 9.6 静态检测器 9.7 并发非阻塞缓存         |                     |
-| Sat  | gopl 9.8 groutine 学习及代码实现               |                     |
-| Sun  | 复习整理代码和笔记，gopl第8、9章，安排下周计划 |                     |
+| Date | Content                                        | FlagStatue            |
+| ---- | ---------------------------------------------- | --------------------- |
+| Mon  | context、sync.map基础练习使用                  | 未完成，context未看   |
+| Tues | gopl 8.9聊天服务器代码实现                     | 完成，遗留问题1       |
+| Wed  | gopl 9.1 竞态 9.2互斥  9.3读写互斥             | 完成                  |
+| Thur | gopl 9.4 内存同步 9.5 延迟初始化               | 完成                  |
+| Fri  | gopl 9.6 静态检测器 9.7 并发非阻塞缓存         | 未完成，遗留问题2     |
+| Sat  | gopl 9.8 groutine 学习及代码实现               | 未完成 没看           |
+| Sun  | 复习整理代码和笔记，gopl第8、9章，安排下周计划 | 周日 计划取消，休息。 |
 
 遗留问题：
 
-2. 聊天服务器中，客户端关闭，服务器是如何得知的。程序中的 leaving通道何时写入的
+1. 聊天服务器中，客户端关闭，服务器是如何得知的。程序中的 leaving通道何时写入的
 
+2. 并发非阻塞缓存未实现
 
+   
 
 生活flag
 
@@ -61,6 +63,30 @@ DailySchedule
 | 01/12 | 完成     | 完成   |
 | 01/13 | 完成     | 完成   |
 | 01/14 | 未完成   | 未完成 |
-| 01/15 | 未完成   |        |
+| 01/15 | 未完成   | 未完成 |
 |       |          |        |
+
+
+
+#### 2021/01/18
+
+| Date | Content                                | FlagStatue |
+| ---- | -------------------------------------- | ---------- |
+| Mon  | 为什么要使用补码，go各个类型的表示范围 |            |
+| Tues |                                        |            |
+| Wed  |                                        |            |
+| Thur | git cherry-pick                        |            |
+| Fri  | 结构体转 json                          |            |
+| S    |                                        |            |
+| Sun  |                                        |            |
+
+```
+
+
+
+
+func (log *LoggerThinkingData) SpeciaValueChange(acctID string, neighborId, townId, smallRoomId uint32, friendId uint64, changeValue uint32) {
+
+}
+```
 
