@@ -72,21 +72,36 @@ DailySchedule
 
 | Date | Content                                | FlagStatue |
 | ---- | -------------------------------------- | ---------- |
-| Mon  | 为什么要使用补码，go各个类型的表示范围 |            |
-| Tues |                                        |            |
-| Wed  |                                        |            |
-| Thur | git cherry-pick                        |            |
-| Fri  | 结构体转 json                          |            |
-| S    |                                        |            |
-| Sun  |                                        |            |
-
-```
+| Mon  | 为什么要使用补码，go各个类型的表示范围 | 待总结     |
+| Tues | 案子                                   |            |
+| Wed  | 案子                                   |            |
+| Thur | git cherry-pick                        | 待总结     |
+| Fri  | 结构体转 json                          | 待总结     |
+| S    | 案子                                   |            |
+| Sun  | 无                                     |            |
 
 
 
 
-func (log *LoggerThinkingData) SpeciaValueChange(acctID string, neighborId, townId, smallRoomId uint32, friendId uint64, changeValue uint32) {
 
-}
-```
 
+
+#### 2021/01/25
+
+| Date | Content                                                      | FlagStatue |
+| ---- | ------------------------------------------------------------ | ---------- |
+| Mon  | GMP模型，goroutine调度原理，goroutine与线程的关系。golang内存逃逸分析 | 已完成     |
+| Tues | 行为树的概念                                                 | 了解       |
+| Wed  | 复习了 虚拟内存概念，逻辑地址与物理地址的映射关系，页表、    |            |
+| Thur | 案子                                                         |            |
+| Fri  | CAS原子操作，阻塞队列、并发队列、循环队列概念                |            |
+| Sat  | 和舒雅婷聊了一早上，复习之前的笔记，git clean， git的帮助命令 |            |
+| Sun  | 分手的日子，很悲伤                                           |            |
+
+IntimyLevelCntAct
+
+10006,100
+
+45 
+
+110 111
